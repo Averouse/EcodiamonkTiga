@@ -189,42 +189,34 @@
                     <p class="text-center mt-8 text-xl font-semibold text-slate-800 italic">"Satu Solusi untuk Berbagai Komplikasi"</p>
                 </div>
         
-                <div class="mb-20">
-                    <h3 class="text-2xl font-semibold mb-8 text-slate-700 text-center">Dengarkan Langsung dari Para Pengguna</h3>
-                    
-                    <div class="relative max-w-3xl mx-auto">
-                        <div id="slider-container" class="overflow-hidden rounded-xl shadow-xl border">
-                            <div id="slider-track" class="flex transition-transform duration-500 ease-in-out">
-                                <div class="w-full flex-shrink-0"><video class="w-full aspect-video bg-black" data-src="videos/v1.mp4" controls preload="metadata"></video></div>
-                                <div class="w-full flex-shrink-0"><video class="w-full aspect-video bg-black" data-src="videos/v2.mp4" controls preload="metadata"></video></div>
-                                <div class="w-full flex-shrink-0"><video class="w-full aspect-video bg-black" data-src="videos/v3.mp4" controls preload="metadata"></video></div>
-                                <div class="w-full flex-shrink-0"><video class="w-full aspect-video bg-black" data-src="videos/v4.mp4" controls preload="metadata"></video></div>
-                                <div class="w-full flex-shrink-0"><video class="w-full aspect-video bg-black" data-src="videos/v5.mp4" controls preload="metadata"></video></div>
-                                <div class="w-full flex-shrink-0"><video class="w-full aspect-video bg-black" data-src="videos/v6.mp4" controls preload="metadata"></video></div>
-                                <div class="w-full flex-shrink-0"><video class="w-full aspect-video bg-black" data-src="videos/v7.mp4" controls preload="metadata"></video></div>
-                                <div class="w-full flex-shrink-0"><video class="w-full aspect-video bg-black" data-src="videos/v8.mp4" controls preload="metadata"></video></div>
-                                <div class="w-full flex-shrink-0"><video class="w-full aspect-video bg-black" data-src="videos/v9.mp4" controls preload="metadata"></video></div>
-                                <div class="w-full flex-shrink-0"><video class="w-full aspect-video bg-black" data-src="videos/v10.mp4" controls preload="metadata"></video></div>
-                                <div class="w-full flex-shrink-0"><video class="w-full aspect-video bg-black" data-src="videos/v11.mp4" controls preload="metadata"></video></div>
-                                <div class="w-full flex-shrink-0"><video class="w-full aspect-video bg-black" data-src="videos/v12.mp4" controls preload="metadata"></video></div>
-                                <div class="w-full flex-shrink-0"><video class="w-full aspect-video bg-black" data-src="videos/v13.mp4" controls preload="metadata"></video></div>
-                                <div class="w-full flex-shrink-0"><video class="w-full aspect-video bg-black" data-src="videos/v14.mp4" controls preload="metadata"></video></div>
-                                <div class="w-full flex-shrink-0"><video class="w-full aspect-video bg-black" data-src="videos/v15.mp4" controls preload="metadata"></video></div>
-                                <div class="w-full flex-shrink-0"><video class="w-full aspect-video bg-black" data-src="videos/v16.mp4" controls preload="metadata"></video></div>
-                                <div class="w-full flex-shrink-0"><video class="w-full aspect-video bg-black" data-src="videos/v17.mp4" controls preload="metadata"></video></div>
-                                <div class="w-full flex-shrink-0"><video class="w-full aspect-video bg-black" data-src="videos/v18.mp4" controls preload="metadata"></video></div>
-                                <div class="w-full flex-shrink-0"><video class="w-full aspect-video bg-black" data-src="videos/v19.mp4" controls preload="metadata"></video></div>
-                                <div class="w-full flex-shrink-0"><video class="w-full aspect-video bg-black" data-src="videos/v20.mp4" controls preload="metadata"></video></div>
-                                <div class="w-full flex-shrink-0"><video class="w-full aspect-video bg-black" data-src="videos/v21.mp4" controls preload="metadata"></video></div>
-                                <div class="w-full flex-shrink-0"><video class="w-full aspect-video bg-black" data-src="videos/v22.mp4" controls preload="metadata"></video></div>
-                                <div class="w-full flex-shrink-0"><video class="w-full aspect-video bg-black" data-src="videos/v23.mp4" controls preload="metadata"></video></div>
-                            </div>
-                        </div>
-        
-                        <button id="prev-button" class="absolute top-1/2 left-0 -translate-y-1/2 -ml-4 md:-ml-6 bg-white/80 hover:bg-white rounded-full p-2 shadow-md transition disabled:opacity-50 disabled:cursor-not-allowed"><svg class="w-6 h-6 text-slate-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg></button>
-                        <button id="next-button" class="absolute top-1/2 right-0 -translate-y-1/2 -mr-4 md:-mr-6 bg-white/80 hover:bg-white rounded-full p-2 shadow-md transition disabled:opacity-50 disabled:cursor-not-allowed"><svg class="w-6 h-6 text-slate-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg></button>
-                        
-                        <div id="slider-dots" class="flex justify-center space-x-2 mt-4"></div>
+                <div class="mb-20 text-center">
+                    <h3 class="text-2xl font-semibold mb-8 text-slate-700">Dengarkan Langsung dari Mereka</h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v1.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v2.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v3.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v4.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v5.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v6.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v7.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v8.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v9.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v10.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v11.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v12.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v13.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v14.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v15.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v16.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v17.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v18.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v19.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v20.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v21.mp4" controls preload="metadata"></video>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 mt-8">
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v22.mp4" controls preload="metadata"></video>
+                        <video class="w-full aspect-video rounded-lg shadow-lg bg-black lazy-video" data-src="videos/v23.mp4" controls preload="metadata"></video>
                     </div>
                 </div>
         
@@ -390,90 +382,36 @@
                 });
             });
 
-            // 6. LOGIKA SLIDER TESTIMONI (DENGAN LAZY LOADING & DOTS)
-            const sliderTrack = document.getElementById('slider-track');
-            if (sliderTrack) {
-                const slides = Array.from(sliderTrack.children);
-                const prevButton = document.getElementById('prev-button');
-                const nextButton = document.getElementById('next-button');
-                const dotsContainer = document.getElementById('slider-dots');
-                let currentIndex = 0;
+            // 6. LOGIKA LAZY LOADING UNTUK VIDEO GRID
+            const lazyVideos = document.querySelectorAll('video.lazy-video');
 
-                // Membuat dots/indikator
-                if(dotsContainer && slides.length > 0) {
-                    slides.forEach((_, i) => {
-                        const dot = document.createElement('button');
-                        dot.classList.add('w-3', 'h-3', 'rounded-full', 'transition', 'bg-slate-300', 'hover:bg-slate-500');
-                        dot.setAttribute('aria-label', `Go to slide ${i + 1}`);
-                        dot.addEventListener('click', () => {
-                            currentIndex = i;
-                            updateSlider();
-                        });
-                        dotsContainer.appendChild(dot);
-                    });
-                }
-                const dots = dotsContainer ? Array.from(dotsContainer.children) : [];
-
-                const updateSlider = () => {
-                    // Pindahkan track
-                    sliderTrack.style.transform = `translateX(-${currentIndex * 100}%)`;
-
-                    // Update status tombol
-                    if (prevButton && nextButton) {
-                        prevButton.disabled = currentIndex === 0;
-                        nextButton.disabled = currentIndex === slides.length - 1;
-                    }
-
-                    // Update status dots
-                    dots.forEach((dot, i) => {
-                        if (i === currentIndex) {
-                            dot.classList.add('bg-sky-600');
-                            dot.classList.remove('bg-slate-300');
-                        } else {
-                            dot.classList.add('bg-slate-300');
-                            dot.classList.remove('bg-sky-600');
-                        }
-                    });
-
-                    // Lazy load video
-                    loadSlideVideo(currentIndex);
-                };
-
-                const loadSlideVideo = (index) => {
-                    if (index < 0 || index >= slides.length) return;
-                    const slide = slides[index];
-                    const video = slide.querySelector('video');
-                    // Cek jika video ada, punya data-src, dan belum punya elemen <source> di dalamnya
-                    if (video && video.dataset.src && video.children.length === 0) {
+            const videoObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    // Jika video masuk ke dalam layar (atau hampir masuk)
+                    if (entry.isIntersecting) {
+                        const video = entry.target;
                         const source = document.createElement('source');
-                        source.setAttribute('src', video.dataset.src);
-                        source.setAttribute('type', 'video/mp4');
+                        source.src = video.dataset.src; // Ambil path video dari data-src
+                        source.type = 'video/mp4';
+                        
+                        // Masukkan <source> ke dalam <video>
                         video.appendChild(source);
-                        video.load();
+                        video.load(); // Perintahkan video untuk memuat media
+                        
+                        // Hentikan observasi video ini agar tidak diulang
+                        video.classList.remove('lazy-video');
+                        observer.unobserve(video);
                     }
-                };
-                
-                if (nextButton && prevButton) {
-                    nextButton.addEventListener('click', () => {
-                        if (currentIndex < slides.length - 1) {
-                            currentIndex++;
-                            updateSlider();
-                        }
-                    });
+                });
+            }, { 
+                // rootMargin akan memuat video 200px sebelum ia benar-benar terlihat di layar
+                rootMargin: '0px 0px 200px 0px' 
+            });
 
-                    prevButton.addEventListener('click', () => {
-                        if (currentIndex > 0) {
-                            currentIndex--;
-                            updateSlider();
-                        }
-                    });
-                }
-                
-                // Inisialisasi slider
-                if(slides.length > 0) {
-                    updateSlider();
-                }
-            }
+            // Mulai observasi setiap video
+            lazyVideos.forEach(video => {
+                videoObserver.observe(video);
+            });
             
             // Add Event Listeners
             window.addEventListener('scroll', () => {
